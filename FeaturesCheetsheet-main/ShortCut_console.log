@@ -1,0 +1,11 @@
+	l = (text) => console.log(text);
+		function log() {
+			let args = arguments;
+			let tab = [];
+
+			for (let i = 0; i < args.length; i++) {
+				tab.push(args[i]);
+			}
+
+			console.log(tab);
+		}
