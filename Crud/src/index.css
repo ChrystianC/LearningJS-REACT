@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+html,
+body {
+	font-family: "Noto Sans JP", sans-serif;
+	margin: 10px 0;
+	background-color: hsl(203, 52%, 95%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* --------------------- */
+
+.container {
+	background-color: #fff;
+	width: 60vw;
+
+	border: 5px solid hsl(205, 90%, 88%);
+	border-radius: 8px;
+	position: relative;
+}
+.navbar {
+	display: fixed;
+	padding: 1%;
+	top: 0;
+	text-align: center;
+}
+
+.nav-button-contractors {
+	background-color: hsl(205, 86%, 81%);
+	border-radius: 3px;
+	border-color: hsl(206, 66%, 86%);
+	width: 50%;
+	margin: 10px auto;
+	padding: 1%;
+}
+
+.form--input {
+	border: none;
+	border-radius: 3px;
+	display: block;
+	margin: 10px auto;
+}
+
+.main--form {
+	max-height: 380px;
+	margin: 10px 5px;
+	padding: 5px;
+}
+.product--container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+}
+.one-product {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: whitesmoke;
+	border-radius: 3px;
+}
+
+.modal {
+	margin: 30px auto;
+	width: 50%;
+	border-radius: 5px;
+	background-color: hsl(205, 90%, 69%);
+	text-align: center;
+	position: relative;
+}
+.product {
+	width: 100%;
+	border-radius: 5px;
+	text-align: center;
+}
+h1 {
+	margin: 5px;
+}
+p {
+	text-align: left;
+	font-size: 0.8rem;
+	margin: 8px 20px;
+	border-radius: 10px;
+	background-color: whitesmoke;
+}
+.show-text {
+	background-color: #fff;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	border-radius: 10px;
+}
+.product--style {
+	margin: 5px 30px;
+	border-radius: 10px;
+	background-color: whitesmoke;
+}
+.product--style > h4 {
+	display: inline;
+}
+.product--edit {
+	margin: 0 5px;
+}
+
+.submit {
+	border-radius: 3px;
+	background-color: rgb(244, 208, 161);
+	display: inline;
+	margin: 0 5px;
+}
+
+@media screen and (max-height: 500px) {
+	.modal {
+		display: none;
+	}
+}
