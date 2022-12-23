@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+html,
+body {
+	font-family: "Noto Sans JP", sans-serif;
+	background-color: #333333;
+	margin: 0;
+	color: aliceblue;
+}
+.header {
+	margin: 0px 50px;
+	margin-top: 50px;
+	padding: 20px;
+	height: 65px;
+	background: rgb(57, 72, 79);
+	background: linear-gradient(90deg, rgba(57, 72, 79, 1) 25%, rgba(76, 106, 120, 1) 84%);
+	align-items: center;
+	display: flex;
+}
+.header-img {
+	height: 100%;
+	margin-right: 6px;
+}
+.header-h3 {
+	font-size: 1.25rem;
+	margin-right: auto;
+}
+.header-h4 {
+	font-size: 0.75rem;
+	font-weight: 500;
+}
+.main {
+	background-color: rgb(98, 123, 144);
+	margin: 0px 50px;
+	padding: 20px;
+}
+.form {
+	display: grid;
+	grid-template: 40px 40px / 1fr 1fr;
+	gap: 25px;
+}
+
+.form-input {
+	color: aliceblue;
+	font-family: "Noto Sans JP", sans-serif;
+	background-color: rgb(98, 123, 144);
+	border: none;
+	border-bottom: 2px solid gainsboro;
+	border-radius: 3px;
+	text-indent: 5px;
+}
+.form-input::placeholder {
+	color: aliceblue;
+}
+.form-input:focus,
+.form-input:active {
+	color: aliceblue;
+	outline: none;
+	border: none;
+	border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.form-input-submit {
+	border-radius: 5px;
+	background: linear-gradient(90deg, rgba(57, 72, 79, 1) 25%, rgba(76, 106, 120, 1) 84%);
+	color: aliceblue;
+	grid-column: 1 / -1;
+	font-family: "Noto Sans JP", sans-serif;
+	cursor: pointer;
+}
+.form-input-submit:focus {
+	border: 2px solid whitesmoke;
+	box-shadow: 0.5px 0.5px whitesmoke;
+}
+.meme-display {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	font-weight: 900;
+	font-size: 1.5rem;
+	color: #333333;
+}
+.meme-display-text-top {
+	position: absolute;
+	top: 10px;
+}
+.meme-display-text-bottom {
+	position: absolute;
+	bottom: 10px;
+}
